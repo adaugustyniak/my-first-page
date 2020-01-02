@@ -12,7 +12,7 @@ html {
 body
 {
     color: #ffffff;
-    background-image: url("img/starfield-banner.png"); 
+    background-image: url("starfield-banner.png"); 
     /*This pattern is downloaded from www.nasa.com/*/
     font-family: 'Lato', sans-serif;
     overflow-x:hidden;
