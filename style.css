@@ -1,0 +1,451 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+}
+body
+{
+    color: #ffffff;
+    background-image: url("img/starfield-banner.png"); 
+    /*This pattern is downloaded from www.nasa.com/*/
+    font-family: 'Lato', sans-serif;
+    overflow-x:hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo
+{
+    background-color:#1d1d1f;
+    padding: 10px;
+    text-transform: uppercase;
+    height: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: #dddddd;
+    text-shadow:1px 2px 0 #404040;
+}
+#nav
+{
+    width: 100%;
+    background-color: #1d1d1f;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.8;
+    height: 60px;
+}
+ul
+{
+	padding: 0;
+	margin: auto;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+    display: inline-block;
+}
+ul a
+{
+	color: #aaa;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+ul > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+    border-right: 1px solid #404040;
+    text-align: center;
+}
+ul > li:first-child
+{
+	border-left: 1px solid #404040;
+}
+ul > li:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+ul > li:hover > a
+{
+    color: white;
+    text-decoration: none;
+}
+table, th, td
+{
+    border: 1px solid #ddd;
+    padding: 10px;  
+  }
+.table1
+{
+    width: 300px;
+    margin-left: 185px;
+    margin-right: auto;
+    float: left;
+    background-color: #000;
+}
+.table2
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    background-color: #000;
+}
+.table3
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: 150px;
+    float: left;
+    background-color: #000;
+}
+#skills
+{
+    padding: 20px;
+    width: 100%;
+    height: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 22px;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+#skills h1
+{
+    letter-spacing: 5px;
+}
+
+#about
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;  
+    font-size: 20px;
+    color: black;
+    width: 100%;
+}
+.content
+{
+    width: 800px;
+    margin-left: 50px;
+    margin-right: auto;
+    padding: 30px;
+    float: left;
+    text-align: justify;
+}
+.photo 
+{
+    position: relative;
+    right: 20px;
+    width: 240px;
+    height: 290px;
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.photo img
+{
+    transition: all 0.3s ease-in-out;
+}
+.photo:hover img
+{
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+}
+.quote
+{
+    clear:both;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    height: 600px;
+    width:100%;
+}
+.blockquote
+{
+    width: 600px;
+    text-align: justify;
+    border: solid 1px #1d1d1f;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+  }
+
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+
+  .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+.video-container 
+{
+    position: relative;
+}
+
+video 
+{
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.overlay-desc 
+{
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-desc h1
+{
+    
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 15px #000;
+}
+#resume
+{   
+    padding: 40px;
+    height: 1300px;
+    text-align: center;
+}
+#resume a
+{
+    color: white;
+}
+#contact
+{
+    height: 650px;
+    text-align: center;
+    padding: 60px;
+    background-color: white;
+    color: black;
+}
+#contact > a
+{
+    font-size: 18px;
+    color: #404040;
+    text-decoration: none;
+}
+.square
+{
+    box-sizing: border-box;
+    width: 600px;
+    height: auto;
+    float: left;
+    background-color: white;
+    border: 1px solid #404040;
+    margin-left: 320px;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px;
+}
+.square h3
+{
+    color: #404040;
+    text-decoration: none;
+}
+.square h3:hover
+{
+    color: black;
+    
+}
+.square a
+{
+ text-decoration-color: black;
+}
+#socialmedia
+{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+.linkedin 
+{
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+.linkedin:hover
+{
+    background-color: #dddddd;
+}
+.github 
+{
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+.github:hover
+{
+    background-color: #dddddd;
+}
+.facebook 
+{
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+.facebook:hover
+{
+    background-color: #dddddd;
+}
+.instagram 
+{
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+.instagram:hover
+{
+    background-color: #dddddd;
+}
+.linkedin a
+{
+    font-size: 30px;
+    color: #007bb5;
+}
+.linkedin a:hover
+{
+    color: #333;
+}
+.github a
+{
+    font-size: 30px;
+    color:#211F1F
+}
+.github a:hover
+{
+    color: #333;
+}
+.facebook a
+{
+    font-size: 30px;
+    color: #1877f2;
+}
+.facebook a:hover
+{
+    color: #333;
+}
+.instagram a
+{
+    font-size: 30px;
+    color: #c32aa3;
+}
+.instagram a:hover
+{
+    color: #333;
+}
+.socialmedia
+{
+    text-align: center;
+}
+ .footer
+ {
+    color: #404040;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color:black;
+    position: relative;
+ }
+/*---Media Queries --*/
+@media (max-width: 992px) 
+{
+
+}
+
+@media (max-width: 768px) 
+{
+      
+}
+
+@media (max-width: 576px) 
+{
+      
+}
+
+    /*
+    Extra small (xs) devices (portrait phones, less than 576px)
+    No media query since this is the default in Bootstrap
+    
+    Small (sm) devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { ... }
+    
+    Medium (md) devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+    
+    Large (lg) devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }
+    
+    Extra (xl) large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
+    */
