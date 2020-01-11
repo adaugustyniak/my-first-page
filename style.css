@@ -2,6 +2,14 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
+::selection
+{
+    background: #404040;
+}
+#contact h4::selection 
+{
+    background: white;
+}
 #container
 {
     width: 100%;
